@@ -1,0 +1,27 @@
+{
+  "name": "socket.io-nativescript-client",
+  "version": "0.0.0",
+  "description": "Socket.io client for NativeScript. This is a fork of @triniwiz/nativescript-socketio, so please make sure to give it's owner all the respects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+	"nativescript": {
+		"platforms": {
+			"ios": "7.0.0",
+			"android": "7.0.0"
+		}
+	},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "3.0.3",
+    "tsup": "^8.0.2",
+    "typescript": "~5.1.6"
+  }
+}
